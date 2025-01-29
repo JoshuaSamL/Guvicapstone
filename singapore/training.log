@@ -1,0 +1,72 @@
+2025-01-21 10:10:59,401 - INFO - Starting the training pipeline...
+2025-01-21 10:10:59,889 - INFO - Data loaded successfully. Shape: (232295, 19)
+2025-01-21 10:10:59,890 - INFO - Starting data preprocessing...
+2025-01-21 10:10:59,910 - ERROR - Error in preprocessing data: Missing required columns: ['storey_median', 'lease_remain_years']
+2025-01-21 10:10:59,912 - ERROR - Error in training pipeline: Missing required columns: ['storey_median', 'lease_remain_years']
+2025-01-21 10:11:57,990 - INFO - Starting the training pipeline...
+2025-01-21 10:11:58,480 - INFO - Data loaded successfully. Shape: (232295, 19)
+2025-01-21 10:11:58,480 - INFO - Starting data preprocessing...
+2025-01-21 10:11:58,536 - INFO - Removed 1 rows with NaN in resale_price
+2025-01-21 10:12:00,501 - INFO - Final dataset shape: (232294, 11)
+2025-01-21 10:12:00,502 - INFO - Data preprocessing completed successfully
+2025-01-21 10:12:00,509 - INFO - Starting model training...
+2025-01-21 10:12:00,601 - ERROR - Error in training model: could not convert string to float: '01 TO 03'
+2025-01-21 10:12:00,602 - ERROR - Error in training pipeline: could not convert string to float: '01 TO 03'
+2025-01-21 10:16:34,118 - INFO - Starting the training pipeline...
+2025-01-21 10:16:34,612 - INFO - Data loaded successfully. Shape: (232295, 19)
+2025-01-21 10:16:34,613 - INFO - Starting data preprocessing...
+2025-01-21 10:16:34,681 - INFO - Removed 1 rows with NaN in resale_price
+2025-01-21 10:16:36,457 - INFO - Final dataset shape: (232294, 11)
+2025-01-21 10:16:36,458 - INFO - Data preprocessing completed successfully
+2025-01-21 10:16:36,465 - INFO - Starting model training...
+2025-01-21 10:17:00,277 - INFO - Model Performance Metrics:
+2025-01-21 10:17:00,277 - INFO - Mean Squared Error: 1,322,994,752.61
+2025-01-21 10:17:00,277 - INFO - Mean Absolute Error: 26,276.63
+2025-01-21 10:17:00,278 - INFO - Root Mean Squared Error: 36,372.99
+2025-01-21 10:17:00,278 - INFO - R-squared Score: 0.9555
+2025-01-21 10:17:00,384 - INFO - 
+Feature Importance:
+2025-01-21 10:17:00,385 - INFO - floor_area_sqm: 0.4409
+2025-01-21 10:17:00,386 - INFO - cbd_dist: 0.2267
+2025-01-21 10:17:00,386 - INFO - property_age: 0.1641
+2025-01-21 10:17:00,387 - INFO - remaining_lease: 0.0750
+2025-01-21 10:17:00,388 - INFO - min_dist_mrt: 0.0209
+2025-01-21 10:17:00,389 - INFO - town: 0.0200
+2025-01-21 10:17:00,389 - INFO - flat_type: 0.0181
+2025-01-21 10:17:00,390 - INFO - storey_range: 0.0172
+2025-01-21 10:17:00,391 - INFO - flat_model: 0.0148
+2025-01-21 10:17:00,391 - INFO - month_number: 0.0018
+2025-01-21 10:17:00,391 - INFO - is_near_mrt: 0.0005
+2025-01-21 10:17:00,392 - INFO - Model training completed successfully
+2025-01-21 10:17:00,396 - INFO - Saving model and preprocessing objects...
+2025-01-21 10:17:05,467 - INFO - Model and preprocessing objects saved successfully in models
+2025-01-21 10:17:05,468 - INFO - Training pipeline completed successfully
+2025-01-21 17:51:40,531 - INFO - Starting the training pipeline...
+2025-01-21 17:51:41,307 - INFO - Data loaded successfully. Shape: (232295, 19)
+2025-01-21 17:51:41,307 - INFO - Starting data preprocessing...
+2025-01-21 17:51:41,479 - INFO - Removed 1 rows with NaN in resale_price
+2025-01-21 17:51:45,131 - INFO - Final dataset shape: (232294, 11)
+2025-01-21 17:51:45,132 - INFO - Data preprocessing completed successfully
+2025-01-21 17:51:45,138 - INFO - Starting model training...
+2025-01-21 17:52:12,782 - INFO - Model Performance Metrics:
+2025-01-21 17:52:12,782 - INFO - Mean Squared Error: 1,322,994,752.61
+2025-01-21 17:52:12,782 - INFO - Mean Absolute Error: 26,276.63
+2025-01-21 17:52:12,782 - INFO - Root Mean Squared Error: 36,372.99
+2025-01-21 17:52:12,783 - INFO - R-squared Score: 0.9555
+2025-01-21 17:52:13,027 - INFO - 
+Feature Importance:
+2025-01-21 17:52:13,027 - INFO - floor_area_sqm: 0.4409
+2025-01-21 17:52:13,028 - INFO - cbd_dist: 0.2267
+2025-01-21 17:52:13,028 - INFO - property_age: 0.1641
+2025-01-21 17:52:13,029 - INFO - remaining_lease: 0.0750
+2025-01-21 17:52:13,029 - INFO - min_dist_mrt: 0.0209
+2025-01-21 17:52:13,110 - INFO - town: 0.0200
+2025-01-21 17:52:13,111 - INFO - flat_type: 0.0181
+2025-01-21 17:52:13,112 - INFO - storey_range: 0.0172
+2025-01-21 17:52:13,113 - INFO - flat_model: 0.0148
+2025-01-21 17:52:13,113 - INFO - month_number: 0.0018
+2025-01-21 17:52:13,113 - INFO - is_near_mrt: 0.0005
+2025-01-21 17:52:13,114 - INFO - Model training completed successfully
+2025-01-21 17:52:13,118 - INFO - Saving model and preprocessing objects...
+2025-01-21 17:52:19,624 - INFO - Model and preprocessing objects saved successfully in models
+2025-01-21 17:52:19,625 - INFO - Training pipeline completed successfully
